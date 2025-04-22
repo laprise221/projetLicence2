@@ -28,11 +28,11 @@ Ce projet a été réalisé dans le cadre de notre deuxième année de Licence I
 ```bash
 git clone https://github.com/laprise221/projetLicence2.git
 cd projetLicence2
+npm install
 ```
 
 ### 2. 💻 Côté client (React)
 ```bash
-npm install
 npm start
 ```
 
@@ -40,7 +40,6 @@ npm start
 Dans un deuxième terminal :
 ```bash
 cd serveur
-npm install
 node serveur.js
 ```
 ## 👥 Auteurs
