@@ -24,13 +24,42 @@ Ce projet a été réalisé dans le cadre de notre deuxième année de Licence I
 
 ## 📦 Installation
 
+### 1. Cloner le dépôt
 ```bash
-git clone  https://github.com/laprise221/projetLicence2.git
+git clone https://github.com/laprise221/projetLicence2.git
 cd projetLicence2
-npm install
+```
 
-### 💻 Côté client 
-  npm start
-##🔌 Côté serveur
-  cd serveur
-  node serveur.js
+### 2. 💻 Côté client (React)
+```bash
+npm install
+npm start
+```
+
+### 3. 🔌 Côté serveur (Node.js + SQLite)
+Dans un deuxième terminal :
+```bash
+cd serveur
+npm install
+node serveur.js
+```
+## 👥 Auteurs
+
+- **Sami Chbicheb** 
+- **Dogukan Tokmak** : [@MonkeyDMugiwara](https://github.com/MonkeyDMugiwara)
+- **Sofiane Hammar**
+- **Aly Hachem Reda** : [@laprise221](https://github.com/laprise221)
+
+---
+
+## 📄 Licence
+
+Ce projet est à usage pédagogique uniquement dans le cadre de notre Licence 2.  
+Merci de ne pas le réutiliser dans un cadre commercial sans autorisation.
+
+---
+
+## 🌐 Accès
+
+Une fois lancé :
+- Interface utilisateur : [http://localhost:3000](http://localhost:3000)
